@@ -1,0 +1,91 @@
+.list {
+  list-style: none; /*точки*/
+}
+
+.link {
+  text-decoration: none; /*подчёркивание*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color-text);
+  background-color: var(--hero-color);
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+}
+
+.main-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+.second-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+.video {
+  margin-bottom: 40px;
+}
